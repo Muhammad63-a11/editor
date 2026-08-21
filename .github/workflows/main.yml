@@ -32,5 +32,4 @@ jobs:
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
-          cd artifacts/audiobook-video-maker
           eas build --platform android --profile preview --non-interactive
